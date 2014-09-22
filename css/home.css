@@ -136,3 +136,7 @@ color: #fff;
   --max-height: 500px;
   --height: 500px;
 }
+
+.footer img {
+  width: 0px;
+}
