@@ -1,0 +1,138 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 50px;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  --color: #444;
+}
+
+.member-photo {
+  height: 100px;
+}
+.logo {
+  max-height: 300px;
+}
+
+.web-logo {
+  height: 40px;
+}
+
+.akb48{
+  border-color: #FFC0CB;  
+} 
+
+.akb48>.panel-heading {
+  color: #fff;
+  background-color: #FFC0CB;
+  border-color: #FFC0CB;
+}
+
+.ske48{
+  border-color: #FEA50D;    
+} 
+
+.ske48>.panel-heading {
+  color: #fff;
+  background-color: #FEA50D;
+  border-color: #FEA50D;
+}
+
+.nmb48{
+  border-color: #F4AC46;    
+} 
+
+.nmb48>.panel-heading {
+  color: #fff;
+  background-color: #F4AC46;
+  border-color: #F4AC46;
+}
+
+.hkt48{
+  border-color: #000000;   
+}
+
+.hkt48>.panel-heading {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
+}
+ 
+.ngz46{
+  border-color: #7D2982;   
+}
+
+.ngz46>.panel-heading {
+  color: #fff;
+  background-color: #7D2982;
+  border-color: #7D2982;
+}
+.header { 
+  background-color: #FFC0CB; 
+  color: #fff; 
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #fff;
+}
+
+.navbar-default .navbar-brand {
+color: #fff;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #FFC0CB; 
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+  color: #fff; 
+}
+
+.main { 
+  min-height: 300px;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  --height: 500px; 
+  max-height: 500px;
+  margin-bottom: 20px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  
+  --min-height: 100%;
+  --max-height: 500px;
+  --background-color: #000;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  --left: 0;
+  --min-width: 100%;
+  min-height: 100%;
+  --max-height: 500px;
+  --height: 500px;
+}

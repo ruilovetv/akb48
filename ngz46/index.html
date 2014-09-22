@@ -1,0 +1,56 @@
+---
+layout: index2
+title: 乃木坂46
+---
+<div class="jumbotron ngz46">
+<div class="media">
+  <a class="pull-left" href="#">
+	<img class="media-object logo" src="http://ww4.sinaimg.cn/large/657b04f9gw1ekecklvezzj206t08k3yj.jpg" alt="ngz46">
+  </a>
+  <div class="media-body"> 
+	  <h2 class="media-heading">乃木坂46</h2>
+	  <p>乃木坂46是一个日本大型女子偶像组合，为另一著名女子组合AKB48的“官方对手／正式对手”（公式ライバル），因此其行销策略与AKB48的姐妹组合——SKE48、NMB48、HKT48等不同，但总制作人同样是秋元康，且与其他姊妹组合之间仍常有跨组合的合作或竞赛企画。包含正式成员与研究生在内，组合目前共有43名成员，而队长为樱井玲香。
+	  </p>	  
+  </div>
+</div> 
+</div>
+
+<div class="container">	
+
+<div class="row">
+      <div class="col-md-9">
+		  <div class="panel panel-primary ngz46">
+			<div class="panel-heading">
+			  <h3 class="panel-title">乃木坂46 视频</h3>
+			</div>
+			<div class="panel-body main">
+			{% for post in site.categories.ngz46 %}
+			  <p>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+			{% endfor %}
+			</div>
+		  </div>
+
+
+	  </div>
+      <div class="col-md-3">
+		  <div class="panel panel-primary ngz46">
+			<div class="panel-heading">
+			  <h3 class="panel-title">乃木坂46人气成员</h3>
+			</div>
+			<div class="panel-body main">
+
+			<ul class="media-list">
+
+
+
+			</ul>
+			
+			 
+ 
+			</div>
+			</div>
+		  </div> 	  
+	  
+	  </div>      
+  
+</div>
